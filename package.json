@@ -1,0 +1,37 @@
+{
+  "name": "accounting-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@nathangroup/nathan-vue-css-library": "^1.0.6",
+    "@nuxtjs/axios": "^5.13.6",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.25.3",
+    "hchs-vue-charts": "^1.2.8",
+    "nuxt": "^2.15.8",
+    "nuxt-svg-loader": "^1.2.0",
+    "vue": "^2.7.10",
+    "vue-chartjs": "^3.5.1",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuetify": "^2.6.10",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0-0",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0"
+  }
+}

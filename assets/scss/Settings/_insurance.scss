@@ -1,0 +1,52 @@
+.ins__package_benefits_wrap{
+  border:1px solid $grey-primary-color;
+  padding:$input_padding * 1.5;
+  border-radius: $input_border_radius;
+  h4{
+    font-size: 18px;
+    font-weight: 600;
+    color:$placeholder-text-color;
+  }
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    gap:40px;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    li::before {
+      content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: $primary-color; /* Change the color */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1em; /* Also needed for space (tweak if needed) */
+      margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
+  }
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ins__package_benefits_wrap{
+    flex-direction: row;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
