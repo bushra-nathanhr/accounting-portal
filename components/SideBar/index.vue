@@ -299,7 +299,6 @@
   
 <script>
 export default {
-  name: 'header_new',
   data() {
     return {
       chatNotification: 0,

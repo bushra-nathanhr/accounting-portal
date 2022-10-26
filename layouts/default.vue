@@ -1,6 +1,6 @@
 <template>
   <v-app >
-    <Header />
+    <SideBar />
     <v-main class="pt-4 content" style="background-color:#f4f7f7">
         <nuxt/>
     </v-main>
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Header from "~/components/shared/header_new";
+import SideBar from "@/components/SideBar/index.vue";
 
 export default {
   head () {
@@ -47,15 +47,4 @@ export default {
 }
 
 </script>
-<style>
-.v-menu__content{
-        border-radius: 18px;
-        margin-top: 41px !important;
-    }
-    .v-menu__content::before{
-        border-top-right-radius: 18px;
-    }
-    .v-menu__content::-webkit-scrollbar {
-  display: none;
-}
-</style>
+
