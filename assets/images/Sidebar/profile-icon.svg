@@ -1,0 +1,9 @@
+<svg id="Component_131_2" data-name="Component 131 – 2" xmlns="http://www.w3.org/2000/svg" width="55" height="20" viewBox="0 0 55 20">
+  <rect id="Rectangle_2514" data-name="Rectangle 2514" width="55" height="20" rx="6" fill="#50b6b0"/>
+  <g id="profile" transform="translate(8 4)">
+    <path id="Vector" d="M6.256,0A6.232,6.232,0,1,0,6.1,12.464a1.06,1.06,0,0,1,.289,0h.092A6.233,6.233,0,1,0,6.256,0Z" transform="translate(0.056 0.001)" fill="#fff" opacity="0.4"/>
+    <path id="Vector-2" data-name="Vector" d="M2.451,0a2.476,2.476,0,1,0-.063,4.951.421.421,0,0,1,.115,0H2.54A2.476,2.476,0,1,0,2.451,0Z" transform="translate(3.878 1.355)" fill="#fff"/>
+    <path id="Vector-3" data-name="Vector" d="M6.323.728a5.18,5.18,0,0,0-5.3,0A2.059,2.059,0,0,0,0,2.413,2.042,2.042,0,0,0,1.023,4.088a4.82,4.82,0,0,0,2.65.736,4.82,4.82,0,0,0,2.65-.736A2.058,2.058,0,0,0,7.346,2.4,2.054,2.054,0,0,0,6.323.728Z" transform="translate(2.656 6.966)" fill="#fff"/>
+  </g>
+  <text id="Profile-2" data-name="Profile" transform="translate(23.445 13)" fill="#fff" font-size="8" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">Profile</tspan></text>
+</svg>

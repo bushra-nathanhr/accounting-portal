@@ -1,7 +1,0 @@
-<svg id="category" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <path id="Vector" d="M1.991,5.325H3.325a1.768,1.768,0,0,0,2-2V1.991a1.768,1.768,0,0,0-2-2H1.991a1.768,1.768,0,0,0-2,2V3.325a1.768,1.768,0,0,0,2,2Z" transform="translate(1.342 1.342)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
-  <path id="Vector-2" data-name="Vector" d="M1.991,5.325H3.325a1.768,1.768,0,0,0,2-2V1.991a1.768,1.768,0,0,0-2-2H1.991a1.768,1.768,0,0,0-2,2V3.325a1.768,1.768,0,0,0,2,2Z" transform="translate(9.342 1.342)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-  <path id="Vector-3" data-name="Vector" d="M1.991,5.325H3.325a1.768,1.768,0,0,0,2-2V1.991a1.768,1.768,0,0,0-2-2H1.991a1.768,1.768,0,0,0-2,2V3.325a1.768,1.768,0,0,0,2,2Z" transform="translate(9.342 9.342)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-  <path id="Vector-4" data-name="Vector" d="M1.991,5.325H3.325a1.768,1.768,0,0,0,2-2V1.991a1.768,1.768,0,0,0-2-2H1.991a1.768,1.768,0,0,0-2,2V3.325a1.768,1.768,0,0,0,2,2Z" transform="translate(1.342 9.342)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-  <path id="Vector-5" data-name="Vector" d="M0,0H16V16H0Z" fill="none" opacity="0"/>
-</svg>

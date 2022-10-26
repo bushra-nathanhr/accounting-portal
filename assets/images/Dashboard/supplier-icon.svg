@@ -1,0 +1,10 @@
+<svg id="Component_108_1" data-name="Component 108 – 1" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <circle id="Ellipse_60" data-name="Ellipse 60" cx="18" cy="18" r="18" fill="#fce1dd"/>
+  <g id="profile-2user" transform="translate(8 8)">
+    <path id="Vector" d="M3.941,7.6a1.558,1.558,0,0,0-.283,0,3.81,3.81,0,1,1,.283,0Z" transform="translate(3.91 1.717)" fill="none" stroke="#ff553e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-2" data-name="Vector" d="M.111,0A3,3,0,0,1,.223,6,.968.968,0,0,0,0,6" transform="translate(13.954 3.429)" fill="none" stroke="#ff553e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+    <path id="Vector-3" data-name="Vector" d="M1.556,1.177c-2.074,1.389-2.074,3.651,0,5.031a8.371,8.371,0,0,0,8.58,0c2.074-1.389,2.074-3.651,0-5.031a8.41,8.41,0,0,0-8.58,0Z" transform="translate(2.01 11.304)" fill="none" stroke="#ff553e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-4" data-name="Vector" d="M0,5.143A4.146,4.146,0,0,0,1.68,4.4a2.171,2.171,0,0,0,0-3.66A4.263,4.263,0,0,0,.026,0" transform="translate(15.72 12)" fill="none" stroke="#ff553e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+    <path id="Vector-5" data-name="Vector" d="M0,0H20.571V20.571H0Z" transform="translate(20.571 20.571) rotate(180)" fill="none" opacity="0"/>
+  </g>
+</svg>

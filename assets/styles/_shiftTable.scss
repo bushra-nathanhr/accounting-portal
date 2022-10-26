@@ -1,0 +1,308 @@
+// SHIFT TABLE
+.ShiftTimeLine .fc-toolbar-chunk {
+    min-width: 26%;
+}
+
+.ShiftTimeLine .fc-toolbar-chunk > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ShiftTimeLine .fc-icon-chevron-left:before {
+    content:url('/shift/arrow-left.svg') !important;
+}
+
+.ShiftTimeLine .fc-icon-chevron-right:before{
+    content:url('/shift/arrow-right.svg') !important;
+}
+
+// CUSTOM HEADER BUTTON 
+.customFullcalendarHeader .fc-toolbar-chunk > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customFullcalendarHeader .fc-icon-chevron-left:before {
+    content:url('/shift/arrow-left.svg') !important;
+}
+
+.customFullcalendarHeader .fc-icon-chevron-right:before{
+    content:url('/shift/arrow-right.svg') !important;
+}
+
+.ShiftTimeLine .fc-next-button {
+    background-color: transparent;
+    border: none;
+}
+
+.ShiftTimeLine .fc-button-primary{
+    background-color: transparent;
+    border: none;
+}
+
+.ShiftTimeLine .fc-button-primary:hover{
+    background-color: transparent;
+    border: none;
+}
+
+.ShiftTimeLine .fc-button:focus {
+    outline: 0;
+    box-shadow: none
+} 
+
+.ShiftTimeLine .fc-button-primary:not(:disabled):active{
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none
+}
+
+.ShiftTimeLine .fc-button-primary:not(:disabled):active:focus{
+    box-shadow: none
+}
+
+.ShiftTimeLine .fc-view-harness{
+    height: 510px !important;
+    overflow: auto;
+}
+
+.ShiftTimeLine .fc .fc-view-harness-active > .fc-view{
+    min-width: 1500px;
+    overflow: auto;
+}
+
+
+// MEDIA SCREEN
+@media  only screen and (max-width:1606px) {
+    .ShiftTimeLine .fc-view-harness{
+        height: 390px !important;
+    }
+}
+
+.addedClass  .fc-view-harness{
+    height: 610px !important;
+}
+
+@media  only screen and (max-width:1606px) {
+    .addedClass  .fc-view-harness{
+        height: 490px !important;
+    }
+}
+
+.ShiftTimeLine .fc-direction-ltr .fc-timeline-event.fc-event-end, .fc-direction-ltr .fc-timeline-more-link ,.fc-timeline-event{
+    background:  none !important;
+    border: none !important;
+    border-radius: 0px !important;
+    margin-top: 3px !important;
+}
+
+.ShiftTimeLine .fc-direction-ltr .fc-timeline-event.fc-event-end,.ShiftTimeLine .fc-direction-ltr .fc-timeline-more-link ,.ShiftTimeLine .fc-timeline-event{
+    min-height: 70px ;
+}
+
+
+// VIEW MORE MULTIPLES
+.viewMoreShift .viewMoreTR .fc-direction-ltr .fc-timeline-event .fc-event-end, .viewMoreShift .viewMoreTR .fc-direction-ltr .fc-timeline-more-link , .viewMoreShift .viewMoreTR .fc-timeline-event{
+    // height: var(--height);
+    min-height: 120px !important;
+}
+.viewMoreShift .viewMoreTR12 .fc-direction-ltr .fc-timeline-event .fc-event-end, .viewMoreShift .viewMoreTR12 .fc-direction-ltr .fc-timeline-more-link , .viewMoreShift .viewMoreTR12 .fc-timeline-event{
+    // height: var(--height);
+    min-height: 140px !important;
+}
+.viewMoreShift .viewMoreTR18 .fc-direction-ltr .fc-timeline-event .fc-event-end, .viewMoreShift .viewMoreTR18 .fc-direction-ltr .fc-timeline-more-link , .viewMoreShift .viewMoreTR18 .fc-timeline-event{
+    // height: var(--height);
+    min-height: 160px !important;
+}
+.viewMoreShift .viewMoreTR24 .fc-direction-ltr .fc-timeline-event .fc-event-end, .viewMoreShift .viewMoreTR24 .fc-direction-ltr .fc-timeline-more-link , .viewMoreShift .viewMoreTR24 .fc-timeline-event{
+    // height: var(--height);
+    min-height: 180px !important;
+}
+.viewMoreShift .viewMoreTR30 .fc-direction-ltr .fc-timeline-event .fc-event-end, .viewMoreShift .viewMoreTR30 .fc-direction-ltr .fc-timeline-more-link , .viewMoreShift .viewMoreTR30 .fc-timeline-event{
+    // height: var(--height);
+    min-height: 200px !important;
+}
+.viewMoreShift .viewMoreTR36 .fc-direction-ltr .fc-timeline-event .fc-event-end, .viewMoreShift .viewMoreTR36 .fc-direction-ltr .fc-timeline-more-link , .viewMoreShift .viewMoreTR36 .fc-timeline-event{
+    // height: var(--height);
+    min-height: 220px !important;
+}
+
+
+// *****************************************
+.ShiftTimeLine .fc-datagrid-cell-frame{
+    display: flex;
+    align-items: center;
+}
+
+.ShiftTimeLine .fc-scroller-harness-liquid  .fc-scrollgrid-sync-table  tbody tr:nth-child(even) {
+    background-color: rgba(144,150,222,0.12) ;
+    
+}
+
+.ShiftTimeLine .fc-scroller-harness-liquid  .fc-scrollgrid-sync-table  tbody tr {
+    // z-index: 2 !important;
+    
+}
+
+.ShiftTimeLine .fc-scroller-harness-liquid  .fc-scrollgrid-sync-table   tbody tr:nth-child(odd) {
+    background-color: rgba(147,222,144,0.12) ;
+}
+
+.ShiftTimeLine .fc-event-title  {
+    color: #000 !important;
+}
+
+.ShiftTimeLine .fc-event-main {
+    min-height: inherit;
+}
+
+.ShiftTimeLine .fc-event-container a {
+    width: 10px !important;
+    background: red;
+    float:left;
+    display: inline-block;
+}
+
+.shiftDelete-badge .v-icon{
+    color: #fff !important;
+    font-size: 12px !important;
+}
+
+
+// MONETARY TAB
+.monetoryTimeLine .fc-toolbar-chunk{
+    min-width: 26%;
+}
+
+.monetoryTimeLine .fc-toolbar-chunk > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.monetoryTimeLine .fc-icon-chevron-left:before {
+    content:url('/shift/arrow-left.svg') !important;
+}
+
+.monetoryTimeLine .fc-icon-chevron-right:before{
+    content:url('/shift/arrow-right.svg') !important;
+}
+
+.monetoryTimeLine .fc-next-button {
+    background-color: transparent;
+    border: none;
+}
+
+.monetoryTimeLine .fc-button-primary{
+    background-color: transparent;
+    border: none;
+}
+
+.monetoryTimeLine .fc-button-primary:hover{
+    background-color: transparent;
+    border: none;
+}
+
+.monetoryTimeLine .fc-button:focus {
+    outline: 0;
+    box-shadow: none
+} 
+
+.monetoryTimeLine .fc-button-primary:not(:disabled):active{
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none
+}
+
+.monetoryTimeLine .fc-button-primary:not(:disabled):active:focus{
+    box-shadow: none
+}
+
+.monetoryTimeLine .fc-daygrid-day-number{
+    color: #BFC8D1;
+}
+
+.monetoryTimeLine .fc-daygrid-day-top{
+    flex-direction: row;
+}
+
+.monetoryTimeLine .fc-daygrid-day-frame{
+    padding: 6px;
+}
+
+.monetoryTimeLine .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.monetoryTimeLine .fc-daygrid-event > span{
+    width: 100%;
+}
+
+
+// USER SHIFT ROATER
+.userShiftRoaster .fc-toolbar-chunk{
+    min-width: 26%;
+}
+
+.userShiftRoaster .fc-toolbar-chunk > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userShiftRoaster .fc-icon-chevron-left:before {
+    content:url('/shift/arrow-left.svg') !important;
+}
+
+.userShiftRoaster .fc-icon-chevron-right:before{
+    content:url('/shift/arrow-right.svg') !important;
+}
+
+.userShiftRoaster .fc-next-button {
+    background-color: transparent;
+    border: none;
+}
+
+.userShiftRoaster .fc-button-primary{
+    background-color: transparent;
+    border: none;
+}
+
+.userShiftRoaster .fc-button-primary:hover{
+    background-color: transparent;
+    border: none;
+}
+
+.userShiftRoaster .fc-button:focus {
+    outline: 0;
+    box-shadow: none
+} 
+
+.userShiftRoaster .fc-button-primary:not(:disabled):active{
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none
+}
+
+.userShiftRoaster .fc-button-primary:not(:disabled):active:focus{
+    box-shadow: none
+}
+
+.userShiftRoaster .fc-daygrid-event{
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.lightBackground::after{
+    background-color: opacify($color: #000000, $amount: 0);
+}
+
+.userShiftRoaster .fc .fc-view-harness{
+    min-height: 600px;
+    max-height: 800px;
+}
+
+.userShiftRoaster .fc .fc-daygrid-day.fc-day-today{
+    background-color:#fff !important
+}

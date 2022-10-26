@@ -1,0 +1,10 @@
+<svg id="notification-status_bulk" data-name="notification-status/bulk" xmlns="http://www.w3.org/2000/svg" width="19.134" height="19.134" viewBox="0 0 19.134 19.134">
+<g id="vuesax_bulk_notification-status" data-name="vuesax/bulk/notification-status">
+<g id="notification-status">
+<path id="Vector" d="M5.257,2.628A2.628,2.628,0,1,1,2.628,0,2.628,2.628,0,0,1,5.257,2.628Z" transform="translate(13.877)" fill="#0064d7"/>
+<path id="Vector-2" data-name="Vector" d="M16.337,6.246a4.331,4.331,0,0,1-4.324-4.324A4.333,4.333,0,0,1,12.483,0H5.3C1.989,0,0,1.98,0,5.3v7.639c0,3.334,1.989,5.314,5.3,5.314h7.64c3.325,0,5.3-1.98,5.3-5.3V5.775A4.261,4.261,0,0,1,16.337,6.246Z" transform="translate(0 0.876)" fill="#0064d7"/>
+<path id="Vector-3" data-name="Vector" d="M5.038,1.314H.657A.662.662,0,0,1,0,.657.662.662,0,0,1,.657,0h4.38a.662.662,0,0,1,.657.657A.662.662,0,0,1,5.038,1.314Z" transform="translate(4.057 10.095)" fill="#fff"/>
+<path id="Vector-4" data-name="Vector" d="M8.542,1.314H.657A.662.662,0,0,1,0,.657.662.662,0,0,1,.657,0H8.542A.662.662,0,0,1,9.2.657.662.662,0,0,1,8.542,1.314Z" transform="translate(4.221 13.885)" fill="#fff"/>
+</g>
+</g>
+</svg>

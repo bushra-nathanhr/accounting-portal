@@ -1,0 +1,10 @@
+<svg id="vuesax_bulk_receive-square" data-name="vuesax/bulk/receive-square" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="receive-square">
+    <path id="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+    <path id="Vector-2" data-name="Vector" d="M14.19,0H5.82C2.17,0,0,2.17,0,5.81v8.37c0,3.64,2.17,5.81,5.81,5.81h8.37c3.64,0,5.81-2.17,5.81-5.81V5.81C20,2.17,17.83,0,14.19,0Z" transform="translate(2 2)" fill="#5c7eef" opacity="0.4"/>
+    <g id="Group">
+      <path id="Vector-3" data-name="Vector" d="M3.217,9.28a.776.776,0,0,0,.24.16.717.717,0,0,0,.29.06.753.753,0,0,0,.29-.06.776.776,0,0,0,.24-.16l3-3a.75.75,0,0,0-1.06-1.06L4.5,6.94V.75A.75.75,0,0,0,3,.75V6.94L1.277,5.22A.75.75,0,0,0,.218,6.28Z" transform="translate(8.253 5.76)" fill="#5c7eef"/>
+      <path id="Vector-4" data-name="Vector" d="M13.468.508a.749.749,0,0,0-.95-.47,18.333,18.333,0,0,1-11.53,0,.749.749,0,1,0-.48,1.42,19.744,19.744,0,0,0,6.24,1.01,19.744,19.744,0,0,0,6.24-1.01A.754.754,0,0,0,13.468.508Z" transform="translate(5.242 15.772)" fill="#5c7eef"/>
+    </g>
+  </g>
+</svg>

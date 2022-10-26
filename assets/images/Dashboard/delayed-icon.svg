@@ -1,0 +1,11 @@
+<svg id="Component_107_1" data-name="Component 107 – 1" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <circle id="Ellipse_60" data-name="Ellipse 60" cx="21" cy="21" r="21" fill="#ebfeec"/>
+  <g id="timer-pause" transform="translate(9 9)">
+    <path id="Vector" d="M8.75,17.5A8.75,8.75,0,1,1,17.5,8.75" transform="translate(3.25 4.5)" fill="none" stroke="#11db25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-2" data-name="Vector" d="M0,0V5" transform="translate(12 8)" fill="none" stroke="#11db25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H6" transform="translate(9 2)" fill="none" stroke="#11db25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-4" data-name="Vector" d="M0,0V4" transform="translate(19 17)" fill="none" stroke="#11db25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-5" data-name="Vector" d="M0,0V4" transform="translate(16 17)" fill="none" stroke="#11db25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-6" data-name="Vector" d="M0,0H24V24H0Z" fill="none"/>
+  </g>
+</svg>

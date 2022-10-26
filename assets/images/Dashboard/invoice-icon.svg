@@ -1,0 +1,11 @@
+<svg id="Component_104_1" data-name="Component 104 – 1" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <circle id="Ellipse_205" data-name="Ellipse 205" cx="21" cy="21" r="21" fill="#ecf4ff"/>
+  <g id="Group_14949" data-name="Group 14949" transform="translate(-142.334 20.666)">
+    <g id="document" transform="translate(151 -12)">
+      <path id="Vector" d="M7.195,20.557h6.167c5.139,0,7.195-2.056,7.195-7.195V7.195C20.557,2.056,18.5,0,13.362,0H7.195C2.056,0,0,2.056,0,7.195v6.167C0,18.5,2.056,20.557,7.195,20.557Z" transform="translate(2.056 2.056)" fill="none" stroke="#46a2d0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M7.709,0H0" transform="translate(8.48 9.25)" fill="none" stroke="#46a2d0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M7.709,0H0" transform="translate(8.48 15.417)" fill="none" stroke="#46a2d0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H24.668V24.668H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>

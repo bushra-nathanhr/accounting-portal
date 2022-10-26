@@ -1,0 +1,13 @@
+<svg id="vuesax_bulk_house-2" data-name="vuesax/bulk/house-2" xmlns="http://www.w3.org/2000/svg" width="10.205" height="10.205" viewBox="0 0 13.205 13.205">
+  <g id="house-2">
+    <path id="Vector" d="M0,0H13.205V13.205H0Z" fill="none" opacity="0"/>
+    <g id="Group" transform="translate(0.688 11.692)">
+      <path id="Vector-2" data-name="Vector" d="M11.83.413a.416.416,0,0,1-.413.413h-11A.413.413,0,0,1,.413,0h11A.412.412,0,0,1,11.83.413Z" fill="#fff"/>
+    </g>
+    <path id="Vector-3" data-name="Vector" d="M9.931,4.1v6.2H0L.028,4.092a1.092,1.092,0,0,1,.424-.864L4.3.235a1.091,1.091,0,0,1,1.354,0L9.508,3.228A1.1,1.1,0,0,1,9.931,4.1Z" transform="translate(1.623 1.393)" fill="#fff" opacity="0.4"/>
+    <g id="Group-2" data-name="Group" transform="translate(5.365 3.714)">
+      <path id="Vector-4" data-name="Vector" d="M2.063.825H.413A.416.416,0,0,1,0,.413.416.416,0,0,1,.413,0H2.063a.416.416,0,0,1,.413.413A.416.416,0,0,1,2.063.825Z" fill="#fff"/>
+    </g>
+    <path id="Vector-5" data-name="Vector" d="M4.677,0H.825A.824.824,0,0,0,0,.825V6.052H5.5V.825A.824.824,0,0,0,4.677,0ZM2.063,3.714a.413.413,0,0,1-.825,0V2.889a.413.413,0,0,1,.825,0Z" transform="translate(3.851 6.052)" fill="#fff"/>
+  </g>
+</svg>

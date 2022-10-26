@@ -1,4 +1,352 @@
 // Ref: https://github.com/nuxt-community/vuetify-module#customvariables
-//
-// The variables you want to modify
-// $font-size-root: 20px;
+// The variables you want to modify $font-size-root: 20px; $body-font-family: 'Nunito', sans-serif; @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+// IMPORTS
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$body-font-family: 'Gorditas', cursive;
+$body-font-family: 'Rubik', sans-serif;
+@import './styles/text-utils'; /* text-utils */
+@import './styles/background-colors'; /* background-colors */
+
+// BODY
+body {
+  font-family: $body-font-family !important;
+  .v-application,.v-application .caption {
+    font-family: $body-font-family !important;    
+  }
+}
+
+// ROOTS
+:root {
+// COLORS
+--primary: #0A2C4F;
+--secondary:#8798AD;
+--primary-two: #0064d7;
+--bg-white: #fff;
+--danger:#FD5959;
+--warning: #FFC107;
+--info:#5171F0;
+--grey1:#F5F6F7;
+--orange:#EA665F;
+--blue-light:#F0F8FF;
+--tooltipbg:#6488EE;
+// SHADOWS
+--cardShadow:0px  24px 30px #959EA51A;
+--boxShadow:0px  24px 30px #959EA51A;
+// BORDER-RADUS
+--cardBorderRadius:18px;
+--buttonborderRadius:18px;
+--panelborderRadius:18px;
+// GREDIENTS
+--tabCardsGradient:transparent linear-gradient(295deg, #6488EE 0%, #0918F7 100%) 0% 0% no-repeat padding-box;
+--submitButtonGradient:transparent linear-gradient(295deg, #6488EE 0%, #0918F7 100%) 0% 0% no-repeat padding-box;
+// FONT SIZES
+--small:5px;
+--x-small:5px;
+--medium:5px;
+--large:5px;
+--x-large:5px;
+}
+
+
+// MODULES
+.panelCard {
+  border-radius:var(--cardBorderRadius) !important;
+  box-shadow: var(--cardShadow) !important;
+  background-color: var(--bg-white) !important;
+}
+
+.notificationBanner {
+  border-radius: 18px; 
+  padding-left: 12px !important;
+  margin-bottom: 12px !important;
+  margin-right: 12px !important;
+  float: right !important;
+  margin-left: 12px !important;
+  background-color: red;
+  border: solid 1px #ff0000;
+  background-color: #ffeded;
+  padding: 7px;
+}
+
+.v-card-gradient{
+  background:transparent linear-gradient(295deg, #6488EE 0%, #0918F7 100%) 0% 0% no-repeat padding-box;
+}
+
+// FONT SIZE
+$font7:17px;
+.textFieldDetailsCuttom .v-text-field__details {
+  display: none;
+}
+
+.v-menu__content{
+box-shadow: 0 1px 30px 0 rgb (145 145 145 / 20%) !important;
+}
+
+.v-menu__content::before {
+  background-color: transparent !important;
+}
+
+.v-menu__content::after {
+  background-color: transparent !important;
+}
+
+.v-card::before {
+  background-color: transparent !important;
+}
+
+.row + .row {
+  margin-top: 0; 
+}
+
+.row{
+  margin: 0px;
+}
+
+.buttonBackgroundShade{
+  background:transparent linear-gradient(86deg, #0064D7 0%, #3646FF 100%) 0% 0% no-repeat padding-box
+}
+
+.spotlightSwiperSkeleton .v-skeleton-loader__button{
+  width: 200px;
+  height: 75px;
+}
+
+.lineHeightHeading{
+  line-height: 1.3 !important
+}
+
+.quoteSkeleton .v-skeleton-loader__button{
+  width: 800px;
+  height: 75px;
+}
+
+.boxShadowCard{
+  box-shadow: 0px  24px 30px #959EA51A !important;
+}
+
+.vChipBorderRadius{
+  border-radius: 0px 0px 8px 8px !important;
+}
+
+.borderRadius18{
+  border-radius: 18px !important;
+}
+
+.borderRadiusTabs{
+  border-radius: 18px !important;
+}
+
+.borderRadiusCards{
+  border-radius: 18px !important;
+}
+
+.borderRadiusInfo{
+  border-radius: 12px !important;
+}
+
+.borderRadiusButtons{
+  border-radius: 24px !important;
+}
+
+.borderRadiusChips{
+  border-radius: 5px !important;
+}
+
+.customMdiMenuDown .mdi-menu-down::before {
+  content: "\F0140";
+}
+
+h3{
+  font-weight:600 !important;
+}
+
+.textTransformUnset{
+  text-transform: unset !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.border-radius-medium{
+  border-radius: 10px !important;
+}
+
+.customLineHeight{
+  line-height: 0.8rem !important;
+}
+
+p{
+  color: #0A2C4F !important;
+}
+
+.largeHeadingFontSize{
+  font-size: 28px !important;
+}
+
+.fontSize7{
+  font-size: $font7 !important;
+}
+
+.headingFontSize{
+  font-size: 24px !important;
+}
+
+.fontSize5{
+  font-size: 20px !important;
+}
+
+.fontSize18{
+  font-size: 18px !important;
+}
+
+.subHeadingFontSize{
+  font-size: 16px !important;
+}
+
+.fontSize15{
+  font-size: 15px !important;
+}
+
+.textFontSize{
+  font-size: 14px !important;
+}
+
+.fontSize2{
+  font-size: 13px !important;
+}
+
+.fontSize1{
+  font-size: 12px !important;
+}
+
+.fontWeight600{
+  font-weight: 600;
+}
+
+.fontWeight400{
+  font-weight: 400;
+}
+
+.fontWeight500{
+  font-weight: 500;
+}
+
+.fontWeight300{
+  font-weight: 300;
+}
+
+.blue-heading-text{
+  color: #5A7DEF;
+}
+
+.darkBlue-heading-text{
+  color: #0A2C4F !important;
+}
+
+.grey-heading-text{
+  color: #8798AD !important;
+}
+
+.customPrimaryBlue{
+  color: #435CED !important;
+}
+
+.outlineIndigoButton{
+  color: #4E5BE1 !important;
+}
+
+.lightBlue{
+  color: #5171F0 !important;
+}
+
+.customRed{
+  color: #FD5959 !important;
+}
+
+.chatMessageBg{
+  background-color: #F5F6F7 !important;
+}
+
+.scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.noShadowButtonClick::before {
+  background-color: transparent !important;
+}
+
+.scroll::-webkit-scrollbar-track {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 2px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.webkit-scrollbar-track {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 2px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.webkit-scrollbar {
+  width: 8px;
+}
+
+.webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;  /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: none; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(228, 228, 228); /* color of the scroll thumb */
+  border-radius: 15px; /* roundness of the scroll thumb */
+  border: none;  /* creates padding around scroll thumb */
+}
+
+.scrollDark {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.noShadowButtonClick::before {
+  background-color: transparent !important;
+}
+
+.scrollDark::-webkit-scrollbar-track {
+  border: 1px solid #fff;
+  padding: 2px 0;
+  background-color: #fff;
+}
+
+.scrollDark::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollDark::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px #d6d6d6;
+  background-color: #ffffff;
+  border: 1px solid #cdcdcd;
+}

@@ -1,0 +1,8 @@
+<svg id="info-circle_bold" data-name="info-circle/bold" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="vuesax_bold_info-circle" data-name="vuesax/bold/info-circle">
+    <g id="info-circle">
+      <path id="Vector" d="M14.5,0A14.5,14.5,0,1,0,29,14.5,14.524,14.524,0,0,0,14.5,0ZM13.412,8.7a1.088,1.088,0,1,1,2.175,0v7.25a1.088,1.088,0,1,1-2.175,0Zm2.422,12.151a1.5,1.5,0,0,1-.3.478,1.674,1.674,0,0,1-.478.3,1.367,1.367,0,0,1-1.1,0,1.674,1.674,0,0,1-.479-.3,1.5,1.5,0,0,1-.3-.478,1.367,1.367,0,0,1,0-1.1,1.307,1.307,0,0,1,.783-.783,1.45,1.45,0,0,1,1.1,0,1.307,1.307,0,0,1,.783.783,1.367,1.367,0,0,1,0,1.1Z" transform="translate(2 2)" fill="#fd5959"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H33V33H0Z" transform="translate(33 33) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
