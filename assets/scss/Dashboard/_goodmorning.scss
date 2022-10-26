@@ -1,0 +1,65 @@
+.good_morning__container {
+    .sun_icon {
+        width: 127px !important; 
+        height: 105px !important;
+    }
+
+    .text__container {
+        display: grid !important;
+        grid-template-columns: 1fr;
+        align-content: center;
+
+        .degree {
+            height: 47px;
+            color: var(--text);
+            text-align: left;
+            font: normal normal 300 40px/47px Rubik;
+            letter-spacing: 2px;
+            color: #0a2c4f;
+            opacity: 1;
+          }
+
+          .city {
+            width: 98px;
+            height: 17px;
+            text-align: left;
+            font: normal normal 300 14px/17px Rubik;
+            letter-spacing: 0.7px;
+            color: #8c9cac;
+            opacity: 1;
+          }
+
+          .greeting {
+            top: 0px;
+            left: 0px;
+            height: 28px;
+            text-align: left;
+            font: normal normal 300 24px/17px Rubik;
+            letter-spacing: 1.2px;
+            color: #8c9cac;
+
+            .user {
+                top: 0px;
+                left: 182px;
+                height: 28px;
+                color: var(--text);
+                text-align: left;
+                font: normal normal medium 24px/17px Rubik;
+                letter-spacing: 1.2px;
+                color: #0a2c4f;
+                font-weight: 500;
+              }
+          }
+
+          .date {
+            top: 174px;
+            left: 421px;
+            height: 17px;
+            text-align: left;
+            font: normal normal 300 14px/17px Rubik;
+            letter-spacing: 0.7px;
+            color: #8c9cac;
+            opacity: 1;
+          }
+      }
+}

@@ -1,0 +1,26 @@
+.shortcut__container {
+    width: 100% !important;
+
+    .shortcuts_btns {
+        .shortcut_btn {
+            text-align: left !important;
+            font: normal normal normal 14px/17px Rubik !important;
+            letter-spacing: 0px !important;
+            color: #0a2c4f !important;
+            text-transform: capitalize !important;
+            box-shadow: 0 !important;
+            background: #ffffff 0% 0% no-repeat padding-box !important;
+            border: 1px solid #46a2d0 !important;
+            border-radius: 12px !important;
+
+            .arrow_icon__container {
+                width: 30px;
+                .arrow_icon {
+                    width: 30px;
+                }
+            }
+        }
+    }
+
+}
+

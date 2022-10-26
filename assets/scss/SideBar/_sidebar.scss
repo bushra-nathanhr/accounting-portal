@@ -1,0 +1,122 @@
+.navigation-drawer__border{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.v-navigation-drawer__content{
+    display: flex !important;
+}
+
+.avatar {
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    background: #1565c0 !important;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+}
+
+#rounded-card {
+  border-radius: 50%;
+  min-height: 100px;
+  min-width: 120px;
+  padding: 15px;
+  /* border: 1px solid blue; */
+}
+
+.grad1 {
+    background-color: #1976D2; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom,#06477b, #6ea4ce);
+}
+
+.height-app {
+    height: 100% !important;
+}
+
+.navigation-drawer__border {
+  width: 10px!important;
+  background-color: red!important;
+}
+
+
+#whiteDropDownIcon {
+  .theme--light.v-icon {
+    color: white !important;
+  }
+}
+
+.v-navigation-drawer__border {
+  display: none !important;
+}
+
+/* .custom_active_navbar{
+      background: transparent linear-gradient(295deg, #6488EE 0%, #0918F7 100%) 0% 0% no-repeat padding-box;
+      overflow: hidden;
+      box-shadow: -9px 8px 20px rgb(44 66 237 / 36%);
+      border-radius: 24px;
+  } */
+
+.v-list-group > .v-list-item--active {
+  background: transparent !important;
+  overflow: hidden !important;
+  box-shadow: none !important;
+  border-radius: 24px;
+}
+
+.v-list-group > .v-list-item--active .v-list-item__title {
+  color: #fff !important;
+}
+
+.navigationDrawer .v-list-item--active {
+  background: transparent linear-gradient(295deg, #6488ee 0%, #0918f7 100%) 0%
+    0% no-repeat padding-box !important;
+  max-width: 190px !important;
+  overflow: hidden;
+  box-shadow: -9px 8px 20px rgb(44 66 237 / 36%) !important;
+  border-radius: 24px !important;
+}
+
+.v-list-group__items
+  > .v-list-item--active
+  > .v-list-item__content
+  .v-list-item__title {
+  color: #fff !important;
+}
+
+.navigationDrawer .v-list-item--active > div > div > p {
+  color: #fff !important;
+}
+
+.navigationDrawer
+  .v-list-item--active
+  > div
+  > div
+  > .mywork_custom
+  > .v-image__image {
+  background-image: url('/header/mywork_white.svg') !important;
+}
+
+.v-dialog {
+  border-radius: 18px !important;
+}
+
+.navigationHover {
+  color: #000 !important;
+  caret-color: #ffffff !important;
+  border-radius: 24px !important;
+  overflow: hidden !important;
+  max-width: 190px !important;
+}
+
+.todayStatusChip {
+  height: 20px !important;
+  font-size: 11px !important;
+  background-color: #94bc8c !important;
+  min-width: 43px !important;
+  max-width: 55px !important;
+  justify-content: space-around !important;
+  align-items: flex-end !important;
+}
