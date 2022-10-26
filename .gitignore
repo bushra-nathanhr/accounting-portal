@@ -83,8 +83,18 @@ dist
 # Service worker
 sw.*
 
-# macOS
+# Mac OSX
 .DS_Store
 
 # Vim swap files
 *.swp
+
+
+# /server
+# server
+
+.githubaction
+
+/pages/documents
+
+/nuxt.config.js

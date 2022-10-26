@@ -1,107 +1,136 @@
-import colors from 'vuetify/es5/util/colors'
+const colors = require('vuetify/es5/util/colors').default
+const webpack = require("./node_modules/webpack");
 
-export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    titleTemplate: '%s - accounting-portal',
-    title: 'accounting-portal',
-    htmlAttrs: {
-      lang: 'en',
+module.exports = {
+    mode: 'universal',
+    /*
+     ** Headers of the page
+     */
+    head: {
+        titleTemplate: '%s - ' + process.env.npm_package_name,
+        title: process.env.npm_package_name || '',
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+        ],
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'manifest', href: '/manifest.json' },
+        ]
     },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
+    router: {
+    },
+    /*
+     ** Customize the progress-bar color
+     */
+    env: {
+
+    },
+    /*
+     ** Customize the progress-bar color
+     */
+    // loading: { color: '#fff' },
+    /*
+     ** Global CSS
+     */
+     css: [
+        '@/assets/scss/global'
+      ],
+    /*
+     ** Plugins to load before mounting the App
+     */
+    plugins: [
+        { src: '@/plugins/vue-awesome-swiper', mode: 'client' },
+        '~/plugins/filters.js',
+        '~/plugins/vue-excel.js',
+
+        { src: '~plugins/quillEditorjs.js', ssr: false, mode: 'client' },
+        { src: "~plugins/chartjs", ssr: false },
+        // { src: "~plugins/emojiPicker", ssr: false }
+        { src: '@/plugins/apexcharts', mode: 'client' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Rubik&display=swap'
-      }
+
+    loading: false,
+
+    /*
+     ** Nuxt.js dev-modules
+     */
+    buildModules: [
+        '@nuxtjs/vuetify',
+
     ],
-  },
+    /*
+     ** Nuxt.js modules
+     */
+    modules: [
+        // Doc: https://axios.nuxtjs.org/usage
+        // '@nuxtjs/pwa',
+        // Doc: https://github.com/nuxt-community/dotenv-module
+        '@nuxtjs/dotenv',
+        '@nuxtjs/proxy',
+        "@nuxtjs/auth-next",
+    ],
+   
+    /*
+     ** Axios module configuration
+     ** See https://axios.nuxtjs.org/options
+     */
+    axios: {
+        // credentials: false,
+        // baseURL: 'https://erpapi-dev.nathanhr.com/',
+        // crossDomain: true,
+        // https: true,
+        // baseURL: 'http://localhost:4001/',
+        // crossDomain: false,
+        // https: false
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    '@/assets/scss/global',
-    "~/node_modules/@nathangroup/nathan-vue-css-library/variable.scss"
-  ],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    '@/plugins/vuetify.js',
-    { src: "@plugins/chartjs", ssr: false },
-  ],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
-    '@nuxtjs/google-fonts',
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    'nuxt-svg-loader',
-  ],
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
-  },
-
-  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
-  vuetify: {
-    customVariables: ['~/assets/scss/variables.scss'],
-    defaultAssets: {
-      font: {
-        family: 'Rubik',
-        size: 14
-      },
-      icons: 'fa'
+        //proxy: true // Can be also an object with default options
     },
-    treeShake: true,
-    // theme: {
-    //   dark: false,
-    //   themes: {
-    //     dark: {
-    //       primary: colors.blue.darken2,
-    //       accent: colors.grey.darken3,
-    //       secondary: colors.amber.darken3,
-    //       info: colors.teal.lighten1,
-    //       warning: colors.amber.base,
-    //       error: colors.deepOrange.accent4,
-    //       success: colors.green.accent3,
-    //     },
-    //   },
-    // },
-  },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-
-  svgLoader: {
-    svgoConfig: {
-      plugins: [
-        { prefixIds: false } // Disables prefixing for SVG IDs
-      ]
-    }
-  },
-  googleFonts: {
-    families: {
-      Poppins: true,
+    //   auth module
+    /*
+     ** vuetify module configuration
+     ** https://github.com/nuxt-community/vuetify-module
+     */
+    vuetify: {
+        treeShake: true,
+        customVariables: ['~/assets/variables.scss'],
+        theme: {
+            dark: false,
+            light: true,
+            themes: {
+                light: {
+                    primary: '#24576a',
+                    // accent: colors.grey.darken3,
+                    secondary: colors.amber.darken3,
+                    info: colors.teal.lighten1,
+                    warning: colors.amber.base,
+                    error: colors.deepOrange.accent4,
+                    success: colors.green.accent3
+                }
+            }
+        }
     },
-    prefetch: true,
-    preconnect: true,
-    preload: true,
-    useStylesheet: true
-  }
+    /*
+     ** Build configuration
+     */
+    build: {
+        /*
+         ** You can extend webpack config here
+         */
+        postcss:false,
+        plugins: [
+            
+            new webpack.ProvidePlugin({
+                _: "lodash",
+                'window.Quill': 'quill/dist/quill.js',
+                'Quill': 'quill/dist/quill.js'
+            })
+        ],
+        extend(config, ctx) { }
+    },
+    server: {
+        port: 5101,
+    },
+    telemetry: false
 }

@@ -48,6 +48,6 @@
 </template>
 
 <script>
-import '@/assets/scss/_salesvsexpenses.scss'
+import '@/assets/scss/Dashboard/_salesvsexpenses.scss'
 export default {}
 </script>

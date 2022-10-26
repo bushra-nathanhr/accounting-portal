@@ -1,19 +1,13 @@
 <template>
-  <v-div
-    style="
-      background: #eee !important;
-      width: 100% !important;
-      height: 100% !important;
-    "
-  >
+  <v-div class="login__container">
     <v-row class="justify-center align-center">
-      <v-col cols="6" style="margin-top: 100px !important">
+      <v-col cols="6" class="mt-100">
         <h1 class="display-2 font-weight-bold blue--text mb-5">
           Welcome To
           <img
             src="/header/nathan-digital.png"
             alt="nathan digital logo"
-            style="width: 150px"
+            class="nathan-digital__logo"
           /><br />
           Accounting System
         </h1>
@@ -29,7 +23,7 @@
             outlined
           ></v-text-field>
           <v-text-field label="Password" outlined class="mt-5"></v-text-field>
-          <v-btn block color="primary" elevation="2" x-large>Login</v-btn>
+          <v-btn block color="primary" elevation="2" x-large to="/dashboard/">Login</v-btn>
         </div>
       </v-col>
     </v-row>

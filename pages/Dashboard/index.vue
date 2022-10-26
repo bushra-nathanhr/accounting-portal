@@ -1,15 +1,16 @@
 <!-- TODO CHANG THE UI AND PUT THE CHARJS IN THE TOP AND THEN THE LISTS UNDERS -->
 <!-- TODO CHANG THE CODE STRUCTOR INTO COMPONENT STRUNCTUR PUT EACH THING IN A COMPONENT AND THEN CALL IT IN THE PAGE -->
 <!-- TODO SETUP THE SCSS -->
+<!-- TODO MAKE GLOBAL COMPONENT FOR CARD-BUTTONS-HEADERS -->
 
 <template>
-  <v-container>
+  <v-container class="main__wrapper">
     <!-- Good Morning -->
-    <v-row id="good_morning">
+    <v-row class="good_morning__section">
       <GoodMorning />
     </v-row>
     <!-- Notifications -->
-    <v-row id="notifications">
+    <v-row class="notifications__section">
       <Notifications />
     </v-row>
     <!-- SECTION 1 -->
@@ -73,7 +74,7 @@
 </template>
 
 <script>
-import '@/assets/scss/Dashboard/_dashbord.scss'
+import '@/assets/scss/Dashboard/_dashboard.scss'
 import GoodMorning from '@/components/Dashboard/GoodMorning/index.vue'
 import Notifications from '@/components/Dashboard/Notifications/index.vue'
 import ChartCard from '@/components/Dashboard/ChartCard/index.vue'
@@ -86,6 +87,7 @@ import SalesVsExpenses from '@/components/Dashboard/SalesVsExpenses/index.vue'
 export default {
   name: 'dashboard',
   layout: 'default',
+  components:{GoodMorning,Notifications,ChartCard,DiscoverMore,ShortCuts,ActiveClients,BankAccounts,QuickAccessCard,SalesVsExpenses},
   data() {
     return {
       labels: ['Jan', 'Apr', 'Jul', 'Sep', 'Dec'],

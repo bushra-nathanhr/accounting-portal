@@ -7,8 +7,8 @@
           "
         >
           <v-card
-            class="rounded-xl ml-0"
-            style="box-shadow: 0px 24px 30px #959ea51a"
+            class="rounded-xl ml-0 cards-shadow"
+            style=""
             flat
           >
             <v-spacer></v-spacer>

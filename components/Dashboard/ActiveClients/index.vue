@@ -81,7 +81,7 @@
 </template>
 
 <script>
-import '@/assets/scss/_activeclients.scss'
+import '@/assets/scss/Dashboard/_activeclients.scss'
 export default {
 
 }
